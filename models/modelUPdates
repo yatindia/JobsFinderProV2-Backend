@@ -1,0 +1,6 @@
+
+5/11/21
+-------------------------
+MODEL UPDATED 
+    UserProfile 
+        |techQualifications| Schema 'ADDED' - ARRAY OF OBJECTS

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>At <%= data.org.orgName %> become <%= data.job.jobTitle %> - JobsFinderPro</title>
+
+    <meta property="og:title" content="<%= data.org.orgName %> Recruiting"/>
+
+    <meta property="og:description" content="Become a <%= data.job.jobTitle %> in <%= data.job.jobCity %>" />
+
+    <meta property="og:image" content="https://scontent-hkt1-1.xx.fbcdn.net/v/t39.30808-6/272588859_118580827357899_6938190485475406914_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_ohc=_0UJjtgz8nwAX-dMkmM&_nc_ht=scontent-hkt1-1.xx&oh=00_AT8uUOLOGGhDeko8UBpNDzsbgRZl6dwfCPEmdiMf66Y2XA&oe=61F558D1" />
+
+
+    <meta property="title" content="<%= data.org.orgName %> Recruiting"/>
+
+    <meta property="description" content="Become a <%= data.job.jobTitle %> in <%= data.job.jobCity %>" />
+
+    <meta property="image" content="https://scontent-hkt1-1.xx.fbcdn.net/v/t39.30808-6/272588859_118580827357899_6938190485475406914_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_ohc=_0UJjtgz8nwAX-dMkmM&_nc_ht=scontent-hkt1-1.xx&oh=00_AT8uUOLOGGhDeko8UBpNDzsbgRZl6dwfCPEmdiMf66Y2XA&oe=61F558D1" />
+
+  
+
+</head>
+<body>
+
+   <div style="opacity: 0;">
+       
+    <h1>
+        Get a job as 
+        <%= data.job.jobTitle %> at 
+        <%= data.org.orgName %> in 
+        <%= data.job.jobCity %></h1>
+
+    <p>
+        <%= data.job.jobDescription %>
+    </p>
+
+   </div>
+
+    <script>
+        window.location.href = "https://jobsfinderpro.com/guest/view/<%= data.job._id %>"
+    </script>
+    
+  
+</body>
+</html>

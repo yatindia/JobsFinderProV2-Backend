@@ -1,0 +1,13 @@
+[
+"Business Advisor",
+"Business Analyst",
+"Change Management",
+"Consultant",
+"Consulting",
+"Junior Business Analyst",
+"Knowledge Developer",
+"Management Consultant",
+"Outsourcing",
+"Programme Management",
+"Strategy Consultant",
+]
