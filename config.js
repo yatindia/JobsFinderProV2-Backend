@@ -2,8 +2,10 @@ const path = require("path")
 
 module.exports = {
   siteName: "Yat Jobs",
-  domain: "https://api.jobsfinderpro.com",
-  frontEnd : "https://jobsfinderpro.com",
+  domain: "http://127.0.0.1:5300",
+  frontEnd : "http://127.0.0.1:3000",
+  // domain: "https://api.jobsfinderpro.com",
+  // frontEnd : "https://jobsfinderpro.com",
   mail: {
     host: "smtp.ethereal.email",
     port: 587,
